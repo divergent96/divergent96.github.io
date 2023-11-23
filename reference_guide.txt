@@ -1,0 +1,182 @@
+Reference (Taken from): https://www.reddit.com/r/datascience/comments/wajjgn/my_guide_to_building_a_strong_data_science/
+
+Having a strong portfolio is like bringing a bazooka to a knife fight.
+
+When you show hiring managers what you can do instead of telling them, your lack of experience doesn’t really matter anymore.
+
+The fact that you couldn’t solve their algorithm question in record time isn’t critical. And the fact that you didn’t go to Harvard isn’t a problem.
+
+You have something better. You have proof that you can do the work.
+
+I spent over 40 hours researching what makes a phenomenal portfolio.
+
+First, though, let’s address some misconceptions about portfolios.
+
+Misconceptions
+Misconception #1: Recruiters don’t have time to look at your portfolio
+
+One of the biggest arguments against having a portfolio is that no one will look at it because recruiters have to forge through hundreds of applicants.
+
+The portfolio is not for the recruiter. It’s for the hiring manager. And by the time you get to the hiring manager, he 100% has the time to look at your portfolio because it’s no longer 100 resumes (it’s like 10-15).
+
+Misconception #2: Personal Website == Portfolio
+
+Whilst it’s true that most portfolios are hosted on your personal website, they can be anywhere. A Github repo, a notion site, a mega article on Medium – as long the work you’ve done is on the internet and you are able to link to it, you have a portfolio.
+
+You don’t need to spend hours on designing the “perfect” personal website. You technically don’t even need one.
+
+Misconception #3: Portfolio is a “nice to have” and not something that can land me a job.
+
+There’s plenty of people that have landed great jobs without a strong portfolio. But I think that the benefits of a strong portfolio extend way beyond just landing the “job”.
+
+By working on projects you find interesting and sharing them with the world, you:
+
+Attract potential employers to you (instead of always just going through a regular interview process)
+
+Attract potential cofounders for future ventures
+
+Get more data on the type of work you find interesting
+
+The above benefits extend into the long term and can be career defining.
+
+Misconception #4: Only technical folks have a portfolio
+
+In tech, the concept of a portfolio is generally tied to the following roles:
+
+Software Engineering
+
+Data Science
+
+UX / Design
+
+But I think that you can build a strong portfolio for any type of role. This includes non-technical roles like product and marketing.
+
+This is because the best portfolio projects share a few themes.
+
+And those themes can impress any hiring manager, no matter the field.
+
+Anatomy of a strong portfolio project
+The perfect portfolio project is:
+
+Fun
+
+Technically (or domain) relevant
+
+Explainable
+
+A strong portfolio project only really needs to fulfill two of the above criteria.
+
+Let’s walk through each one.
+
+Fun
+
+Most of your competition will just build clones of popular apps like Facebook or Reddit.
+
+They’ll find the most popular Kaggle dataset and download the CSV file. Or they’ll write a case study on Web3 just because it’s in vogue.
+
+We’re going to take a different approach. We’re going to work on a project that you find fun.
+
+When you build something that you find fun, it means that you’re leveraging some domain knowledge you have or a competitive advantage of some sorts. And that makes you stand out.
+
+For example, because I’ve spent the past two years writing this newsletter on tech careers, I find the data surrounding recruiting, the hiring market, and career progression really interesting.
+
+And so it would be a competitive advantage for me to make a portfolio project in this space, as opposed to in a space like crypto which I don’t really care about.
+
+The second aspect to building something fun is what’s in it for the hiring manager.
+
+Let's say you want a job at Twitch. Don't just make a page that lists the top ten streamers.
+
+Instead, make a page where people enter the name of two streamers and after your code has compared the stats of both streamers, a winner gets displayed in the style of a Mortal Kombat KO.
+
+People like to do business with people they like. And if your portfolio project can convey a ton of your personality and energy, you’re going to have a much better chance of making an amazing impression.
+
+Technically (or domain) Relevant
+
+Use technologies that they have in their stack.
+
+There are websites that help you find out what technologies companies are using to build their product. For client side code it's not very hard to find out by yourself: look at the source, look at the libraries that get loaded, beautify their code and have a look at what gets imported.
+
+When building your project use as much of those technologies to show them that you are familiar with the technologies they use.
+
+If your role is non-technical, just replace the word technical with domain. You want to build something that makes them think “Oh, X can already do the job because he knows so much about the field!”
+
+Explainable
+
+Hiring managers want you to be able to explain the decisions you made when building your project. Why did you use a monolith architecture stack instead of something else? Why did you decide to make the edges of the user’s profile box round instead of square?
+
+Ideally, you start with some form of research question. This is your why. What do you hope to learn?
+
+If you’re a data scientist, discuss your mode choice. It's fine to just use XGBoost for tabular data but at least discuss other choices that could be appropriate.
+
+If you’re a product manager, set the scene: why did you solve this problem in the first place?
+
+If you’re a marketer, identify the metric you’re trying to move: are you trying to increase traffic or improve conversion rate?
+
+Examples
+I’m going to give you some examples and tactical advice for data science portfolio projects.
+
+I recommend:
+
+Choosing a project that leverages some prior domain knowledge you have within the field. This will allow you to differentiate your idea and separate you from the other off the shelf clone projects.
+
+Come up with a solid research requestion
+
+Hunting down data and wrangling it – don’t just download data_science_project.csv
+
+Now that you have the data, you want to make sure that you fulfill the explainability criteria really well. Some things you can focus on:
+
+Discussion on model choice. It's fine to just create a benchmark model just using Random Forests or XGBoost for tabular data but discuss other choices that could be appropriate.
+
+Discussion on the data validation process. Are you using any custom notebooks or scripts? Tools like Pydantic? How do you check for class imbalances?
+
+Discussion on model output/metrics. How effectively has your original research question been answered? What are some different approaches you could have taken?
+
+There’s a lot of value in working backwards from the types of roles you want to target and working backwards to build certain types of portfolio projects.
+
+We can split portfolio projects into two buckets: data cleaning and data storytelling.
+
+The first type of projects, data cleaning, really focus on data collection.
+
+Examples of good ones:
+
+Mining Twitter Data With Python
+
+Cleaning Airbnb Data
+
+Whilst data storytelling projects also incorporate technical complexity, especially when it comes to data gathering, they make sure to include a compelling narrative.
+
+Examples of good ones:
+
+Clinton Trump Hip Hop Lyrics
+
+Analyzing 1.1 Billion NYC Taxi and Uber Trips
+
+Both of these projects index high on the fun criteria as they tackle topics that are interesting.
+
+Sharing your portfolio
+You have a great portfolio. And now it’s time to share it with the world.
+
+Sharing can mean many things. You can send it to hiring managers, post it on Linkedin, post it on Hacker News – but the keys to doing any of these things successfully is in answering two questions:
+
+What did I build?
+
+Why did I build it?
+
+Some good examples of answering the first question are the Show HN posts on Hacker News:
+
+r/datascience - My Guide To Building A Strong Data Science Portfolio
+For the second question, you want to tie it back to your interests and motivations. Sure, maybe you worked on that technology because your favorite company uses it and it will make you look good, but dig a bit deeper.
+
+What excites you intellectually about the problem at hand? Why did you choose to explore the topic the way you did?
+
+Your genuine interests here will shine and make you stand out.
+
+***
+
+Once you start to put work out there that you really care about, getting that dream job is literally only one of MANY amazing outcomes that could happen.
+
+Any questions and I'll be in the comments!
+
+If you liked this post, you might like my newsletter. It's my best content delivered to your inbox once every two weeks. Cheers :)
+
+- Shikhar
